@@ -1,0 +1,194 @@
+/********** Template CSS **********/
+:root {
+  --primary: #8f9beb;
+  --light: rgb(208, 211, 226);
+  --dark: #b0dfeb;
+}
+.container {
+ 
+  background-image: linear-gradient(to bottom, white, #d8e5f2);
+}
+
+/*** About ***/
+.about-img img {
+  transition: 0.5s;
+}
+
+.about-img img:hover {
+  background: var(--primary) !important;
+}
+
+/*** Classes ***/
+.classes-item {
+  transition: 0.5s;
+}
+
+.classes-item:hover {
+  margin-top: -10px;
+}
+
+.cards {
+  height: 350px;
+  width: 350px;
+  margin: 50px;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+}
+
+.button2 {
+  font-size: 25px;
+  margin-left: 160px;
+  font-family: cambria;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0a1853;
+  padding: 8px 12px;
+  border-radius: 20px;
+  letter-spacing: 1px;
+}
+.button2:hover {
+  background-color: #9cbce3;
+  transition: 0.4s ease;
+}
+
+/*** Ethics ***/
+.ethics {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: left;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Additional styling */
+.container {
+  color: #333;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+ul {
+  font-size: 16px;
+}
+
+li:before {
+  content: "\2022";
+  color: #007bff;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.ethics-img {
+  position: relative;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+/*** FAQ***/
+.Faq_form {
+  position: relative;
+  background: white;
+  margin-bottom: 300px;
+  margin-left: 270px;
+  border-radius: 50px;
+}
+
+.accordion {
+  position: relative;
+  width: 350px;
+  margin-left: 40px;
+}
+
+.content-accordion {
+  margin-top: 35px;
+  margin-right: 50px;
+}
+
+.question-answer {
+  width: 100%;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion-img {
+  position: relative;
+  width: 320px;
+}
+
+.title-question {
+  margin: 1.4rem 0rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.question-btn {
+  font-size: 1.5rem;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.up-icon {
+  display: none;
+}
+
+.answer {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  display: none;
+}
+
+.show-text .answer {
+  display: block;
+}
+
+.show-text .up-icon {
+  display: inline;
+}
+
+.show-text .down-icon {
+  display: none;
+}
+
+/*@media screen and (min-width: 992px) {*/
+.accordion {
+  width: 920px;
+  height: 0;
+  display: flex;
+}
+
+.accordion-img {
+  position: relative;
+  width: 420px;
+  top: 88px;
+}
+
+.question-answer {
+  width: 380px;
+}
+
+.content-accordion {
+  margin-top: 85px;
+}
